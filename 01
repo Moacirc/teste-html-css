@@ -1,0 +1,81 @@
+/* estilo de página*/
+<STYLE>
+  
+ .container{           /*Essa classe é a que faz o menu centralizar*/
+   margin:auto;
+   width:960px;
+   height:auto;
+}
+ 
+ #menu {
+    margin-left:0px;
+    width:100%;
+    height:20px;
+    margin-top:7px;
+    position:absolute;
+
+
+}
+#menu1 {            /*Essa div é o tamanho principal do menu e cor de fundo*/
+
+    width:70%;
+    height:48px;
+    margin-top:-6px;
+    position:relative;
+    background: rgb(51, 51, 51);
+    border-radius: 0px 0px 15px 15px;
+}
+#menuver {                      
+    border: 0px;
+    margin: 0px;
+    padding-left: inherit;	
+	
+}
+#menuver li {                         
+    list-style: none;
+    margin: 0;
+    display: inline;
+    margin: 0px;
+    font: 16px Calibri;
+	
+      
+}
+#menuver li a {                               /*Essa div para diversos navegadores*/
+    -moz-border-radius: 5px;   /*Firefox*/
+    -webkit-border-radius: 5px;   /* Chrome e Safari */
+    border-radius:0px;
+    padding: 10px 37.2px;/*LARGURA E TAMANHANO MENU*/
+    float:left;
+    margin: 0;
+ 
+    
+    text-decoration: none;
+    color:#FFB90F;
+	
+}/*COR LETRA MENU PRINCIPAL*/
+#menuver li a:link {
+    color:#8B0000;
+}
+#menuhor li a:visited {
+    color:#8B0000;
+}
+#menuver li a:hover {
+    background:#FFB90F;    
+	height:27px;
+	 border-radius: 0px 0px 15px 15px;
+    color:blue;/*COR LETRA FUNDO*/
+ 
+ </STYLE>
+ <div class="container">
+ <div id="menu1"> <!-- MENU  -->
+            <div id="menu">
+                <ul id="menuver">
+                    <li><a href="index.html"    title="Pagina Inicial">Inicio</a> </li>
+                    <li><a href="01.html" title="Confira nossa Programacao">Programacao</a></li>
+                    <li><a href="02.html" title="Locutores">Equipe</a></li>
+                    <li><a href="03.html" title="Sala de Bate Papo">Chat</a></li>
+                    <li><a href="04.html" title="Fotos">Galerias</a></li>                  
+                </ul>
+            </div>
+        </div>
+		  </div>
